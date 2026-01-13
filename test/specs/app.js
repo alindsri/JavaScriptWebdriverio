@@ -1,0 +1,1 @@
+     console.log("Hello, VS Code this is my first javascript code!");

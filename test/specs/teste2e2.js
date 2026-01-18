@@ -42,9 +42,9 @@ console.log(' flight clicked');
 
     // From: Delhi
      console.log('before one way  ');
-  await $('#fromCity').waitForClickable({ timeout: 50000 });
-  await $('*=DEL').click();
- console.log('one way clicked ');
+  await $('text=From').waitForClickable({ timeout: 50000 });
+  await $('*=BOM').click();
+ console.log('one way clicked - selected from city');
   //await $('#fromCity').click();
   //await $('#fromCity').clearValue();
   //await $('#fromCity').setValue('DELHI');
